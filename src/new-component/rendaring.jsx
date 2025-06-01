@@ -7,7 +7,8 @@ const products = [
 
 export default function Rendaring() {
     const listItem = products.map(p => <li key={p.id} style={{
-        color: p.isFruit ? 'magenta' : 'darkgreen'
+        color: p.isFruit ? 'red' : 'green',
+        fontSize:p.isFruit ? '30px' : '50px'
     }}>
         {p.title}
     </li>);

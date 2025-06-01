@@ -5,7 +5,7 @@ import Rendaring from "./rendaring";
 const Logical = () => {
     let isacess;
 
-    const dataStore = true;
+    const dataStore = false;
 
     if (dataStore) {
         isacess = <DataUse></DataUse>
